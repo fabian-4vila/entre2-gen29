@@ -29,10 +29,9 @@ const WeatherCard = ({ weather, temp, loading, error, errorMessage }) => {
     };
 
     
-    const weatherDescription = weather?.weather[0].icon.toLowerCase();
-    
+    const weatherDescription = weather?.weather[0].icon;
     const backgroundFileName = weatherToBackground[weatherDescription];
-    const backgroundUrl = `../public/${backgroundFileName}`;
+    const backgroundUrl = `/${backgroundFileName}`;
     
     setBackgroundImage(`url(${backgroundUrl})`);
   }, [weather]);
