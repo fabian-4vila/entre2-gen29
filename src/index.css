@@ -1,0 +1,27 @@
+html {
+    font-family: 'Roboto', sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5) ;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  h2{
+    
+      text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5) ;
+      margin-top: 25px;
+      margin-bottom: 0;
+    
+  }
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  button {
+    border: none;
+    font-family: inherit;
+  }
